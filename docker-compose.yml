@@ -41,7 +41,8 @@ services:
       entrypoint: redis-server --appendonly yes --port 6380
 
 volumes:
-  postgres_data:
-  redis_data:
   staticfiles:
       external: true
+  postgres_data:
+  redis_data:
+  
