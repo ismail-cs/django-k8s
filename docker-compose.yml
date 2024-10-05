@@ -10,4 +10,4 @@ services:
     env_file:
       - web/.env
     ports:
-      -"8001:8020"
+      - "8001:8020"
